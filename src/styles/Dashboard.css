@@ -1,0 +1,247 @@
+.dashboard-container {
+  padding: 4rem 0;
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.animated-title {
+  font-size: 3.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  perspective: 1000px;
+}
+
+.title-word {
+  display: inline-flex;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.title-word:hover {
+  transform: translateY(-3px);
+  color: #3498db;
+  text-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+}
+
+.title-word::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #3498db;
+  transition: width 0.3s ease;
+}
+
+.title-word:hover::after {
+  width: 100%;
+}
+
+.user-welcome {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  animation: fadeIn 0.5s ease;
+}
+
+.dashboard-content {
+  display: grid;
+  gap: 3rem;
+}
+
+.progress-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.progress-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.progress-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.progress-card i {
+  font-size: 2.5rem;
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+.progress-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.progress-card p {
+  color: #7f8c8d;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.current-courses, .achievements {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.current-courses h2, .achievements h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.course-card {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-progress {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.course-card h3 {
+  color: #2c3e50;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.course-card p {
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+}
+
+.btn-continue {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  width: 100%;
+}
+
+.btn-continue:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.achievement-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-card i {
+  font-size: 2.5rem;
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+.achievement-card.locked i {
+  color: #95a5a6;
+}
+
+.achievement-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card p {
+  color: #7f8c8d;
+}
+
+.achievement-card.locked {
+  opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .animated-title {
+    font-size: 2.5rem;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .progress-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-container {
+    padding: 2rem 1rem;
+  }
+}

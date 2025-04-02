@@ -1,0 +1,232 @@
+.course-player {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  background-color: #000;
+}
+
+.video-placeholder {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; 
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+
+.play-button {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.play-icon {
+  color: white;
+  font-size: 2rem;
+}
+
+.video-controls {
+  background-color: #222;
+  padding: 10px 20px;
+  color: white;
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-display {
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.volume-slider {
+  width: 80px;
+  cursor: pointer;
+}
+
+.transcript-button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: auto;
+}
+
+.transcript-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.progress-row {
+  width: 100%;
+}
+
+.progress-slider {
+  width: 100%;
+  cursor: pointer;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #555;
+  border-radius: 3px;
+  outline: none;
+}
+
+.progress-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #3498db;
+  cursor: pointer;
+}
+
+.lesson-info {
+  padding: 20px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.lesson-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.transcript {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.transcript h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.transcript-content {
+  line-height: 1.7;
+  color: #34495e;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.lesson-actions {
+  display: flex;
+  padding: 20px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-previous, .btn-next, .btn-mark-complete {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-previous, .btn-next {
+  background-color: #f1f5f9;
+  color: #3498db;
+}
+
+.btn-previous:hover, .btn-next:hover {
+  background-color: #e6e6e6;
+}
+
+.btn-mark-complete {
+  background-color: #27ae60;
+  color: white;
+  margin-left: auto;
+}
+
+.btn-mark-complete:hover {
+  background-color: #219653;
+}
+
+@media (max-width: 768px) {
+  .controls-row {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .volume-control {
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .volume-slider {
+    flex: 1;
+  }
+  
+  .transcript-button {
+    order: 2;
+    margin-left: auto;
+  }
+  
+  .lesson-actions {
+    flex-direction: column;
+  }
+  
+  .btn-mark-complete {
+    margin-left: 0;
+    order: -1;
+  }
+} 
