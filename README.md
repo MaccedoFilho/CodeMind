@@ -1,6 +1,6 @@
 # Meu Site React TypeScript
 
-Um projeto básico de site criado com React e TypeScript.
+Um projeto de site criado com React e TypeScript.
 
 ## Estrutura de Pastas
 
@@ -81,4 +81,4 @@ Este projeto foi estruturado para ser fácil de entender e personalizar. Você p
 
 Se tiver dúvidas sobre este template de projeto, entre em contato:
 
-- Email: contato@meusite.com 
+- Email: ricardomacedodev@gmail.com
