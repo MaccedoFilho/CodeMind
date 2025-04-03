@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CodeMind/static/css/main.bb4e7d0b.css",
-    "main.js": "/CodeMind/static/js/main.3d0e8b7d.js",
+    "main.css": "/CodeMind/static/css/main.5c1d7a8b.css",
+    "main.js": "/CodeMind/static/js/main.236738f8.js",
     "static/js/453.28c13e5f.chunk.js": "/CodeMind/static/js/453.28c13e5f.chunk.js",
     "static/media/curso-python-avancado.jpg": "/CodeMind/static/media/curso-python-avancado.4ce970f2d77746fc0052.jpg",
     "static/media/curso-python-basico.jpg": "/CodeMind/static/media/curso-python-basico.4ce970f2d77746fc0052.jpg",
@@ -18,12 +18,12 @@
     "static/media/curso-oracle.jpg": "/CodeMind/static/media/curso-oracle.6a29b13f8448342847c9.jpg",
     "static/media/curso-html-css.jpg": "/CodeMind/static/media/curso-html-css.1c0fdfd4a28c428788ed.jpg",
     "index.html": "/CodeMind/index.html",
-    "main.bb4e7d0b.css.map": "/CodeMind/static/css/main.bb4e7d0b.css.map",
-    "main.3d0e8b7d.js.map": "/CodeMind/static/js/main.3d0e8b7d.js.map",
+    "main.5c1d7a8b.css.map": "/CodeMind/static/css/main.5c1d7a8b.css.map",
+    "main.236738f8.js.map": "/CodeMind/static/js/main.236738f8.js.map",
     "453.28c13e5f.chunk.js.map": "/CodeMind/static/js/453.28c13e5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb4e7d0b.css",
-    "static/js/main.3d0e8b7d.js"
+    "static/css/main.5c1d7a8b.css",
+    "static/js/main.236738f8.js"
   ]
 }
