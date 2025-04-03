@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CodeMind - Página não encontrada</title>
+  <script type="text/javascript">
+    // Redirecionamento para a rota correta no GitHub Pages
+    var pathSegmentsToKeep = 1; // Ajuste conforme o nome do seu repositório
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/#/' +
+      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/') +
+      (l.search ? l.search : '') +
+      (l.hash ? l.hash : '')
+    );
+  </script>
+</head>
+<body>
+  <h1>Redirecionando...</h1>
+  <p>Se você não for redirecionado automaticamente, <a href="https://macedofilho.github.io/CodeMind">clique aqui</a>.</p>
+</body>
+</html> 

@@ -1,6 +1,6 @@
 {
-  "short_name": "Site Curso",
-  "name": "Site de Curso React TypeScript",
+  "short_name": "CodeMind",
+  "name": "CodeMind - Plataforma de Cursos de Programação",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#3498db",
   "background_color": "#ffffff"
 } 
