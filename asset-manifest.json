@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CodeMind/static/css/main.bb4e7d0b.css",
-    "main.js": "/CodeMind/static/js/main.5f187bcf.js",
+    "main.js": "/CodeMind/static/js/main.132da094.js",
     "static/js/453.28c13e5f.chunk.js": "/CodeMind/static/js/453.28c13e5f.chunk.js",
     "index.html": "/CodeMind/index.html",
     "main.bb4e7d0b.css.map": "/CodeMind/static/css/main.bb4e7d0b.css.map",
-    "main.5f187bcf.js.map": "/CodeMind/static/js/main.5f187bcf.js.map",
+    "main.132da094.js.map": "/CodeMind/static/js/main.132da094.js.map",
     "453.28c13e5f.chunk.js.map": "/CodeMind/static/js/453.28c13e5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb4e7d0b.css",
-    "static/js/main.5f187bcf.js"
+    "static/js/main.132da094.js"
   ]
 }
