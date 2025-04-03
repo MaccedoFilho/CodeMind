@@ -1,15 +1,29 @@
 {
   "files": {
     "main.css": "/CodeMind/static/css/main.bb4e7d0b.css",
-    "main.js": "/CodeMind/static/js/main.132da094.js",
+    "main.js": "/CodeMind/static/js/main.3d0e8b7d.js",
     "static/js/453.28c13e5f.chunk.js": "/CodeMind/static/js/453.28c13e5f.chunk.js",
+    "static/media/curso-python-avancado.jpg": "/CodeMind/static/media/curso-python-avancado.4ce970f2d77746fc0052.jpg",
+    "static/media/curso-python-basico.jpg": "/CodeMind/static/media/curso-python-basico.4ce970f2d77746fc0052.jpg",
+    "static/media/curso-python-data.jpg": "/CodeMind/static/media/curso-python-data.4ce970f2d77746fc0052.jpg",
+    "static/media/curso-postgresql.jpg": "/CodeMind/static/media/curso-postgresql.28e2d5a695eaa49b3b59.jpg",
+    "static/media/curso-logica.jpg": "/CodeMind/static/media/curso-logica.81a6b91ffbc548959137.jpg",
+    "static/media/curso-mysql.jpg": "/CodeMind/static/media/curso-mysql.5aa6fad22854cc999950.jpg",
+    "static/media/curso-java-basico.jpg": "/CodeMind/static/media/curso-java-basico.37f521c37e95b34960c9.jpg",
+    "static/media/curso-java-poo.jpg": "/CodeMind/static/media/curso-java-poo.37f521c37e95b34960c9.jpg",
+    "static/media/curso-java-spring.jpg": "/CodeMind/static/media/curso-java-spring.37f521c37e95b34960c9.jpg",
+    "static/media/curso-react-avancado.jpg": "/CodeMind/static/media/curso-react-avancado.6f6fa9ff887f202d618e.jpg",
+    "static/media/curso-algoritmos.jpg": "/CodeMind/static/media/curso-algoritmos.9f6ea5306f1e2a1acb3f.jpg",
+    "static/media/curso-javascript.jpg": "/CodeMind/static/media/curso-javascript.3e341b26ba3fba8cce89.jpg",
+    "static/media/curso-oracle.jpg": "/CodeMind/static/media/curso-oracle.6a29b13f8448342847c9.jpg",
+    "static/media/curso-html-css.jpg": "/CodeMind/static/media/curso-html-css.1c0fdfd4a28c428788ed.jpg",
     "index.html": "/CodeMind/index.html",
     "main.bb4e7d0b.css.map": "/CodeMind/static/css/main.bb4e7d0b.css.map",
-    "main.132da094.js.map": "/CodeMind/static/js/main.132da094.js.map",
+    "main.3d0e8b7d.js.map": "/CodeMind/static/js/main.3d0e8b7d.js.map",
     "453.28c13e5f.chunk.js.map": "/CodeMind/static/js/453.28c13e5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb4e7d0b.css",
-    "static/js/main.132da094.js"
+    "static/js/main.3d0e8b7d.js"
   ]
 }
